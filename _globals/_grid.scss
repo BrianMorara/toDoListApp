@@ -1,0 +1,17 @@
+@use '../_util/' as m;
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr;grid-template-rows: auto;
+
+    #input{
+        margin-top: 2.78vw;
+    }
+
+}
+
+@include m.breakpoint(large){
+  .all{
+        margin-inline: 10vw;
+   }
+}
